@@ -1,4 +1,5 @@
 import axios from 'axios'
+import notional from '../notionalVals.json'
 
 function CosmosDirectory(){
   const directoryProtocol = process.env.DIRECTORY_PROTOCOL || 'https'
@@ -33,11 +34,17 @@ function CosmosDirectory(){
       .then(res => res.data)
   }
 
-  function getValidators(chainName){
-    console.log(axios.get(validatorsUrl + '/chains/' + chainName)
-    .then(res => res.data.validators))
-    return axios.get(validatorsUrl + '/chains/' + chainName)
-      .then(res => res.data.validators)
+  async function getValidators(chainName){
+    const allValidator = await (await axios.get(validatorsUrl + '/chains/' + chainName)).data.validators
+    const notionalValIndex = allValidator.findIndex((obj => obj.moniker == "notional"))
+    const chainRestake= notional.chains.find((obj => obj.name == chainName))
+    allValidator[notionalValIndex]["restake"] = {
+      address: chainRestake.restake,
+      run_time: "01:00",
+      minimum_reward: 0
+    }
+    return allValidator
+    
   }
 
   function getOperatorCounts(){
@@ -51,6 +58,20 @@ function CosmosDirectory(){
         })
         return sum
       }, {}))
+  }
+
+  async function getOperatorCounts(){
+    const response = await (await axios.get(validatorsUrl)).data
+    const data = Array.isArray(response) ? response : response.validators
+    data.push(notional)
+    const result = data.reduce((sum, validator) => {
+      validator.chains.forEach(chain => {
+        sum[chain.name] = sum[chain.name] || 0
+        if(!!chain.restake) sum[chain.name]++
+      })
+      return sum
+    }, {})
+    return result
   }
 
   return {

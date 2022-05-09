@@ -27,12 +27,11 @@ function NetworkSelect(props) {
     { networks: [], operators: [], network: { value: '' } }
   )
 
-  function handleOpen() {
+  async function handleOpen() {
     setSelectedNetwork(props.network);
     setValidators(props.validators);
-    CosmosDirectory().getOperatorCounts().then(counts => {
-      setOperatorCounts(counts);
-    });
+    const counts = await CosmosDirectory().getOperatorCounts()
+    setOperatorCounts(counts);
     setShow(true);
   }
 
@@ -48,7 +47,7 @@ function NetworkSelect(props) {
     handleClose();
   }
 
-  function selectNetwork(newValue) {
+  async function selectNetwork(newValue) {
     const data = props.networks[newValue.value];
     if (data) {
       setLoading(true);
@@ -59,9 +58,9 @@ function NetworkSelect(props) {
         if (network.usingDirectory && !network.connectedDirectory()) {
           throw false;
         }
-        return network.connect().then(() => {
+        return network.connect().then(async () => {
           if (network.connected) {
-            setValidators(network.getValidators());
+            setValidators(await network.getValidators());
             setLoading(false);
           } else {
             throw false;
