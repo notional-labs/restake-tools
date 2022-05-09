@@ -1,0 +1,52 @@
+body{
+  --bs-font-sans-serif: Lato,
+  -apple-system,
+  BlinkMacSystemFont,
+  "Segoe UI",
+  Roboto,
+  "Helvetica Neue",
+  Arial,
+  sans-serif,
+  "Apple Color Emoji",
+  "Segoe UI Emoji",
+  "Segoe UI Symbol";
+  --bs-body-font-family: var(--bs-font-sans-serif);
+}
+
+header a.moniker{
+  margin-left: 15px;
+}
+
+.clipboard.copied{
+  text-decoration: underline;
+}
+
+.btn-circle-sm {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 0.9rem;
+}
+
+.btn-circle-lg {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 1.1rem;
+}
+
+.btn-circle-xl {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  font-size: 1.3rem;
+}
+
+code {
+  padding: 0.5rem;
+  line-height:1.5rem;
+}
+
+code p{
+  margin-bottom: 0.5rem;
+}

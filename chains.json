@@ -1,0 +1,2434 @@
+{
+    "repository": {
+        "url": "https://github.com/eco-stake/chain-registry",
+        "branch": "cosmos-directory",
+        "commit": "6259cab2687737f6b0bec43b0fa97fda73531561",
+        "timestamp": 1651612173
+    },
+    "chains": [
+        {
+            "name": "agoric",
+            "path": "agoric",
+            "chain_name": "agoric",
+            "network_type": "mainnet",
+            "pretty_name": "Agoric",
+            "chain_id": "agoric-3",
+            "status": "live",
+            "symbol": "BLD",
+            "denom": "ubld",
+            "decimals": 6,
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/bld.png",
+            "height": 4843213,
+            "best_apis": {
+                "rest": [],
+                "rpc": [
+                    {
+                        "address": "https://agoric-rpc.polkachu.com/",
+                        "provider": "Polkachu"
+                    }
+                ]
+            },
+            "params": {
+                "authz": true,
+                "actual_block_time": 6.672190001010895
+            }
+        },
+        {
+            "name": "akash",
+            "path": "akash",
+            "chain_name": "akash",
+            "network_type": "mainnet",
+            "pretty_name": "Akash",
+            "chain_id": "akashnet-2",
+            "status": "live",
+            "symbol": "AKT",
+            "denom": "uakt",
+            "decimals": 6,
+            "coingecko_id": "akash-network",
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg",
+            "height": 5793615,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://rest-akash.ecostake.com/",
+                        "provider": "ecostake"
+                    },
+                    {
+                        "address": "https://akash.c29r3.xyz/api/"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "http://akash-sentry01.skynetvalidators.com:26657/",
+                        "provider": "skynet"
+                    },
+                    {
+                        "address": "https://akash-rpc.polkachu.com/",
+                        "provider": "Polkachu"
+                    },
+                    {
+                        "address": "https://rpc-akash.ecostake.com/",
+                        "provider": "ecostake"
+                    },
+                    {
+                        "address": "https://rpc.akash.forbole.com/",
+                        "provider": "forbole"
+                    },
+                    {
+                        "address": "http://akash.c29r3.xyz/rpc/"
+                    }
+                ]
+            },
+            "params": {
+                "authz": true,
+                "bonded_tokens": "136104553174598",
+                "total_supply": "187791203177374",
+                "actual_block_time": 6.014470000267028,
+                "calculated_apr": 0.3208332774927162
+            }
+        },
+        {
+            "name": "arkh",
+            "path": "arkh",
+            "chain_name": "arkh",
+            "network_type": "mainnet",
+            "pretty_name": "Arkhadian",
+            "chain_id": "arkh",
+            "status": "killed",
+            "symbol": "ARKH",
+            "denom": "uarkh",
+            "decimals": 6,
+            "image": "https://www.arkhadian.com/static/images/600-prism.png",
+            "height": 4733006,
+            "best_apis": {
+                "rest": [],
+                "rpc": []
+            },
+            "params": {
+                "authz": false,
+                "bonded_tokens": "20082000118",
+                "total_supply": "0",
+                "actual_block_time": 5.058370001316071,
+                "calculated_apr": -0.01975568289870488
+            }
+        },
+        {
+            "name": "assetmantle",
+            "path": "assetmantle",
+            "chain_name": "assetmantle",
+            "network_type": "mainnet",
+            "pretty_name": "Asset Mantle",
+            "chain_id": "mantle-1",
+            "status": "live",
+            "symbol": "MNTL",
+            "denom": "umntl",
+            "decimals": 6,
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/assetmantle/images/mntl.png",
+            "height": 294983,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://lcd.asset-mantle.ezstaking.io/",
+                        "provider": "EZStaking.io"
+                    },
+                    {
+                        "address": "https://rest-assetmantle.ecostake.com/",
+                        "provider": "ecostake"
+                    },
+                    {
+                        "address": "https://rest.assetmantle.one/",
+                        "provider": "AssetMantle"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "https://rpc.asset-mantle.ezstaking.io/",
+                        "provider": "EZStaking.io"
+                    },
+                    {
+                        "address": "https://rpc-assetmantle.ecostake.com/",
+                        "provider": "ecostake"
+                    },
+                    {
+                        "address": "https://assetmantle-rpc.polkachu.com/",
+                        "provider": "Polkachu"
+                    },
+                    {
+                        "address": "https://rpc.assetmantle.one/",
+                        "provider": "AssetMantle"
+                    }
+                ]
+            },
+            "params": {
+                "authz": true,
+                "bonded_tokens": "172110296081148",
+                "total_supply": "312906826821495",
+                "actual_block_time": 5.84625,
+                "calculated_apr": 1.381771659337724
+            }
+        },
+        {
+            "name": "axelar",
+            "path": "axelar",
+            "chain_name": "axelar",
+            "network_type": "mainnet",
+            "pretty_name": "Axelar",
+            "chain_id": "axelar-dojo-1",
+            "status": "live",
+            "symbol": "AXL",
+            "denom": "uaxl",
+            "decimals": 6,
+            "coingecko_id": "axelar-network",
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.svg",
+            "height": 2033781,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://axelar-lcd.quickapi.com/",
+                        "provider": "chainlayer"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "https://axelar-rpc.chainode.tech/",
+                        "provider": "chainode"
+                    },
+                    {
+                        "address": "https://axelar-rpc.pops.one/",
+                        "provider": "p-ops"
+                    },
+                    {
+                        "address": "https://axelar-rpc.quickapi.com/",
+                        "provider": "chainlayer"
+                    }
+                ]
+            },
+            "params": {
+                "authz": false,
+                "bonded_tokens": "12642361229185",
+                "total_supply": "999985999979500",
+                "actual_block_time": 6.072320001125336
+            }
+        },
+        {
+            "name": "bandchain",
+            "path": "bandchain",
+            "chain_name": "bandchain",
+            "network_type": "mainnet",
+            "pretty_name": "BandChain",
+            "chain_id": "laozi-mainnet",
+            "status": "live",
+            "symbol": "BAND",
+            "denom": "uband",
+            "decimals": 6,
+            "coingecko_id": "band-protocol",
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bandchain/images/band.svg",
+            "height": 6258777,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://laozi1.bandchain.org/api/",
+                        "provider": "bandprotocol"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "http://rpc.laozi1.bandchain.org/",
+                        "provider": "bandprotocol"
+                    }
+                ]
+            },
+            "params": {
+                "authz": true,
+                "bonded_tokens": "93736337010546",
+                "total_supply": "123454509722529",
+                "actual_block_time": 3.1969999980926516,
+                "calculated_apr": 0.09163605001240108
+            }
+        },
+        {
+            "name": "bitcanna",
+            "path": "bitcanna",
+            "chain_name": "bitcanna",
+            "network_type": "mainnet",
+            "pretty_name": "BitCanna",
+            "chain_id": "bitcanna-1",
+            "status": "live",
+            "symbol": "BCNA",
+            "denom": "ubcna",
+            "decimals": 6,
+            "coingecko_id": "bitcanna",
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitcanna/images/bcna.svg",
+            "height": 3130784,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://lcd.bitcanna.ezstaking.io/",
+                        "provider": "EZStaking.io"
+                    },
+                    {
+                        "address": "https://lcd.bitcanna.io/",
+                        "provider": "bitcanna"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "https://rpc.bitcanna.ezstaking.io/",
+                        "provider": "EZStaking.io"
+                    },
+                    {
+                        "address": "http://bcna.paranorm.pro:26657/",
+                        "provider": "ParanormalBrothers"
+                    },
+                    {
+                        "address": "https://rpc.bitcanna.io/",
+                        "provider": "bitcanna"
+                    },
+                    {
+                        "address": "https://bitcanna-rpc.polkachu.com/",
+                        "provider": "Polkachu"
+                    }
+                ]
+            },
+            "params": {
+                "authz": false,
+                "bonded_tokens": "91637953629521",
+                "total_supply": "380013787070458",
+                "actual_block_time": 6.2785599994659425,
+                "calculated_apr": 0.18011318063811585
+            }
+        },
+        {
+            "name": "bitsong",
+            "path": "bitsong",
+            "chain_name": "bitsong",
+            "network_type": "mainnet",
+            "pretty_name": "BitSong",
+            "chain_id": "bitsong-2b",
+            "status": "live",
+            "symbol": "BTSG",
+            "denom": "ubtsg",
+            "decimals": 6,
+            "coingecko_id": "bitsong",
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/btsg.svg",
+            "height": 5860898,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://api.bitsong.interbloc.org/",
+                        "provider": "interbloc"
+                    },
+                    {
+                        "address": "https://lcd-bitsong.itastakers.com/",
+                        "provider": "itastakers"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "https://rpc.bitsong.interbloc.org/",
+                        "provider": "interbloc"
+                    },
+                    {
+                        "address": "https://rpc-bitsong.itastakers.com/",
+                        "provider": "itastakers"
+                    }
+                ]
+            },
+            "params": {
+                "authz": true,
+                "bonded_tokens": "46467724471757",
+                "total_supply": "126738995695362",
+                "actual_block_time": 5.981180000305176,
+                "calculated_apr": 0.33129700380571986
+            }
+        },
+        {
+            "name": "bostrom",
+            "path": "bostrom",
+            "chain_name": "bostrom",
+            "network_type": "mainnet",
+            "pretty_name": "bostrom",
+            "chain_id": "bostrom",
+            "status": "live",
+            "symbol": "BOOT",
+            "denom": "boot",
+            "decimals": 6,
+            "coingecko_id": "bostrom",
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/boot.png",
+            "height": 2723010,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://lcd.bostrom.cybernode.ai/",
+                        "provider": "cybercongress"
+                    },
+                    {
+                        "address": "https://lcd.cyber.posthuman.digital/",
+                        "provider": "posthuman"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "https://rpc.bostrom.cybernode.ai/",
+                        "provider": "cybercongress"
+                    },
+                    {
+                        "address": "https://rpc.cyber.posthuman.digital/",
+                        "provider": "posthuman"
+                    }
+                ]
+            },
+            "params": {
+                "authz": true,
+                "bonded_tokens": "88690636341506",
+                "total_supply": "1039267249038106",
+                "actual_block_time": 5.960149998664856,
+                "calculated_apr": 1.261077761581597
+            }
+        },
+        {
+            "name": "carbon",
+            "path": "carbon",
+            "chain_name": "carbon",
+            "network_type": "mainnet",
+            "pretty_name": "Carbon",
+            "chain_id": "carbon-1",
+            "status": "live",
+            "symbol": "SWTH",
+            "denom": "swth",
+            "decimals": 8,
+            "coingecko_id": "switcheo",
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/carbon/images/swth.svg",
+            "height": 26079928,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://api.carbon.network/",
+                        "provider": "switcheo-labs"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "https://tm-api.carbon.network/",
+                        "provider": "switcheo-labs"
+                    }
+                ]
+            },
+            "params": {
+                "authz": true,
+                "bonded_tokens": "111850122997301849",
+                "total_supply": "164864786711156236",
+                "actual_block_time": 2.10891000032425
+            }
+        },
+        {
+            "name": "cerberus",
+            "path": "cerberus",
+            "chain_name": "cerberus",
+            "network_type": "mainnet",
+            "pretty_name": "Cerberus",
+            "chain_id": "cerberus-chain-1",
+            "status": "live",
+            "symbol": "CRBRUS",
+            "denom": "ucrbrus",
+            "decimals": 6,
+            "coingecko_id": "cerberus-2",
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cerberus/images/crbrus.png",
+            "height": 813356,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://rest-cerberus.ecostake.com/",
+                        "provider": "ecostake"
+                    },
+                    {
+                        "address": "https://api.cerberus.zone:1317/",
+                        "provider": "Cerberus"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "https://rpc-cerberus.ecostake.com/",
+                        "provider": "ecostake"
+                    },
+                    {
+                        "address": "https://cerberus-rpc.polkachu.com/",
+                        "provider": "Polkachu"
+                    },
+                    {
+                        "address": "https://rpc.cerberus.zone:26657/",
+                        "provider": "Cerberus"
+                    }
+                ]
+            },
+            "params": {
+                "authz": true,
+                "bonded_tokens": "23921822018082050",
+                "total_supply": "102636892881912226",
+                "actual_block_time": 6.0452499985694885,
+                "calculated_apr": 1.508350838864173
+            }
+        },
+        {
+            "name": "cheqd",
+            "path": "cheqd",
+            "chain_name": "cheqd",
+            "network_type": "mainnet",
+            "pretty_name": "cheqd",
+            "chain_id": "cheqd-mainnet-1",
+            "status": "live",
+            "symbol": "CHEQ",
+            "denom": "ncheq",
+            "decimals": 9,
+            "coingecko_id": "cheqd-network",
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cheqd/images/cheq.svg",
+            "height": 2534812,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://lcd.cheqd.ezstaking.io/",
+                        "provider": "EZStaking.io"
+                    },
+                    {
+                        "address": "https://api.cheqd.net/",
+                        "provider": "cheqd"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "https://rpc.cheqd.ezstaking.io/",
+                        "provider": "EZStaking.io"
+                    },
+                    {
+                        "address": "https://rpc.cheqd.net/",
+                        "provider": "cheqd"
+                    }
+                ]
+            },
+            "params": {
+                "authz": true,
+                "bonded_tokens": "383500271050954320",
+                "total_supply": "1016955362982651838",
+                "actual_block_time": 5.927909998893738,
+                "calculated_apr": 0.10136410945268633
+            }
+        },
+        {
+            "name": "chihuahua",
+            "path": "chihuahua",
+            "chain_name": "chihuahua",
+            "network_type": "mainnet",
+            "pretty_name": "Chihuahua",
+            "chain_id": "chihuahua-1",
+            "status": "live",
+            "symbol": "HUAHUA",
+            "denom": "uhuahua",
+            "decimals": 6,
+            "coingecko_id": "chihuahua-token",
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/huahua.png",
+            "height": 2084024,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://rest-chihuahua.ecostake.com/",
+                        "provider": "ecostake"
+                    },
+                    {
+                        "address": "https://api.chihuahua.wtf/",
+                        "provider": "Chihuahua"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "https://rpc-chihuahua.ecostake.com/",
+                        "provider": "ecostake"
+                    },
+                    {
+                        "address": "https://rpc.chihuahua.wtf/",
+                        "provider": "Chihuahua"
+                    },
+                    {
+                        "address": "https://chihuahua-rpc.polkachu.com/",
+                        "provider": "Polkachu"
+                    }
+                ]
+            },
+            "params": {
+                "authz": false,
+                "bonded_tokens": "23074345367938196",
+                "total_supply": "119092812632716511",
+                "actual_block_time": 6.124749999046326,
+                "calculated_apr": 2.308705568897816
+            }
+        },
+        {
+            "name": "comdex",
+            "path": "comdex",
+            "chain_name": "comdex",
+            "network_type": "mainnet",
+            "pretty_name": "Comdex",
+            "chain_id": "comdex-1",
+            "status": "live",
+            "symbol": "CMDX",
+            "denom": "ucmdx",
+            "decimals": 6,
+            "coingecko_id": "comdex",
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.png",
+            "height": 2388699,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://api-comdex.zenchainlabs.io/",
+                        "provider": "zenchainlabs"
+                    },
+                    {
+                        "address": "https://rest.comdex.one/",
+                        "provider": "comdex"
+                    },
+                    {
+                        "address": "https://api.comdex.audit.one/rest/",
+                        "provider": "audit"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "https://comdex-rpc.polkachu.com/",
+                        "provider": "Polkachu"
+                    },
+                    {
+                        "address": "https://rpc-comdex.zenchainlabs.io/",
+                        "provider": "zenchainlabs"
+                    },
+                    {
+                        "address": "https://rpc.comdex.one/",
+                        "provider": "comdex"
+                    },
+                    {
+                        "address": "https://api.comdex.audit.one/rpc/",
+                        "provider": "audit"
+                    }
+                ]
+            },
+            "params": {
+                "authz": false,
+                "bonded_tokens": "77254507351683",
+                "total_supply": "114679148942959",
+                "actual_block_time": 6.146679999828339,
+                "calculated_apr": 0.4182709197708362
+            }
+        },
+        {
+            "name": "cosmoshub",
+            "path": "cosmoshub",
+            "chain_name": "cosmoshub",
+            "network_type": "mainnet",
+            "pretty_name": "Cosmos Hub",
+            "chain_id": "cosmoshub-4",
+            "status": "live",
+            "symbol": "ATOM",
+            "denom": "uatom",
+            "decimals": 6,
+            "coingecko_id": "cosmos",
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg",
+            "height": 10414182,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://api.cosmoshub.pupmos.network/",
+                        "provider": "pupmos"
+                    },
+                    {
+                        "address": "https://lcd.cosmos.ezstaking.io/",
+                        "provider": "EZStaking.io"
+                    },
+                    {
+                        "address": "https://rest-cosmoshub.ecostake.com/",
+                        "provider": "ecostake"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "https://rpc.cosmos.ezstaking.io/",
+                        "provider": "EZStaking.io"
+                    },
+                    {
+                        "address": "https://rpc.cosmoshub.pupmos.network/",
+                        "provider": "pupmos"
+                    },
+                    {
+                        "address": "https://rpc-cosmoshub.ecostake.com/",
+                        "provider": "ecostake"
+                    },
+                    {
+                        "address": "https://cosmoshub.validator.network/",
+                        "provider": "validatornetwork"
+                    },
+                    {
+                        "address": "https://cosmos-rpc.polkachu.com/",
+                        "provider": "Polkachu"
+                    },
+                    {
+                        "address": "https://rpc.cosmos.network/",
+                        "provider": "tendermint-inc"
+                    }
+                ]
+            },
+            "params": {
+                "authz": true,
+                "bonded_tokens": "182761002899748",
+                "total_supply": "294941428934380",
+                "actual_block_time": 7.049539999961853,
+                "calculated_apr": 0.16023037679549393
+            }
+        },
+        {
+            "name": "crescent",
+            "path": "crescent",
+            "chain_name": "crescent",
+            "network_type": "mainnet",
+            "pretty_name": "Crescent",
+            "chain_id": "crescent-1",
+            "status": "live",
+            "symbol": "CRE",
+            "denom": "ucre",
+            "decimals": 6,
+            "coingecko_id": "crescent-network",
+            "image": "https://raw.githubusercontent.com/crescent-network/asset/main/images/coin/CRE.svg",
+            "height": 366607,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://mainnet.crescent.network:1317/",
+                        "provider": "crescent"
+                    },
+                    {
+                        "address": "https://api.crescent.pupmos.network/",
+                        "provider": "pupmos"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "https://mainnet.crescent.network:26657/",
+                        "provider": "crescent"
+                    },
+                    {
+                        "address": "https://rpc.crescent.pupmos.network/",
+                        "provider": "pupmos"
+                    },
+                    {
+                        "address": "https://crescent-rpc.polkachu.com/",
+                        "provider": "Polkachu"
+                    }
+                ]
+            },
+            "params": {
+                "authz": true,
+                "bonded_tokens": "17291077254733",
+                "total_supply": "207660940534674",
+                "actual_block_time": 6.051850001811982
+            }
+        },
+        {
+            "name": "cronos",
+            "path": "cronos",
+            "chain_name": "cronos",
+            "network_type": "mainnet",
+            "pretty_name": "Cronos",
+            "chain_id": "cronosmainnet_25-1",
+            "status": "live",
+            "symbol": "CRO",
+            "denom": "basecro",
+            "decimals": 18,
+            "coingecko_id": "crypto-com-chain",
+            "image": "https://raw.githubusercontent.com/crypto-org-chain/cronos-docs/master/docs/.vuepress/public/cronos.svg",
+            "height": 2677104,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://rest-cronos.crypto.org/",
+                        "provider": "crypto.org"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "https://rpc-cronos.crypto.org/",
+                        "provider": "crypto.org"
+                    }
+                ]
+            },
+            "params": {
+                "authz": true,
+                "bonded_tokens": "49900000000",
+                "total_supply": "2141118348667231259799999999",
+                "actual_block_time": 6.049119999408722
+            }
+        },
+        {
+            "name": "cryptoorgchain",
+            "path": "cryptoorgchain",
+            "chain_name": "cryptoorgchain",
+            "network_type": "mainnet",
+            "pretty_name": "Crypto.org",
+            "chain_id": "crypto-org-chain-mainnet-1",
+            "status": "live",
+            "symbol": "CRO",
+            "denom": "basecro",
+            "decimals": 8,
+            "coingecko_id": "crypto-com-chain",
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro.png",
+            "height": 5703704,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://rest-cryptoorgchain.ecostake.com/",
+                        "provider": "ecostake"
+                    },
+                    {
+                        "address": "https://lcd-crypto-org.keplr.app/",
+                        "provider": "chainapsis"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "https://rpc-cryptoorgchain.ecostake.com/",
+                        "provider": "ecostake"
+                    },
+                    {
+                        "address": "https://mainnet.crypto.org/",
+                        "provider": "crypto.org"
+                    },
+                    {
+                        "address": "https://rpc-crypto-org.keplr.app/",
+                        "provider": "chainapsis"
+                    }
+                ]
+            },
+            "params": {
+                "authz": true,
+                "bonded_tokens": "385750129942302642",
+                "total_supply": "2549051647037757417",
+                "actual_block_time": 6.10731999874115,
+                "calculated_apr": 0.12391869234052032
+            }
+        },
+        {
+            "name": "decentr",
+            "path": "decentr",
+            "chain_name": "decentr",
+            "network_type": "mainnet",
+            "pretty_name": "Decentr",
+            "chain_id": "mainnet-3",
+            "status": "live",
+            "symbol": "DEC",
+            "denom": "udec",
+            "decimals": 6,
+            "coingecko_id": "decentr",
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/decentr/images/dec.svg",
+            "height": 3197067,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://rest.mainnet.decentr.xyz/",
+                        "provider": "decentr"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "https://ares.mainnet.decentr.xyz/",
+                        "provider": "decentr"
+                    },
+                    {
+                        "address": "https://poseidon.mainnet.decentr.xyz/",
+                        "provider": "decentr"
+                    }
+                ]
+            },
+            "params": {
+                "authz": false,
+                "bonded_tokens": "25598438405412",
+                "total_supply": "39371278135205",
+                "actual_block_time": 5.802230000495911,
+                "calculated_apr": 0.2648949877275916
+            }
+        },
+        {
+            "name": "desmos",
+            "path": "desmos",
+            "chain_name": "desmos",
+            "network_type": "mainnet",
+            "pretty_name": "Desmos",
+            "chain_id": "desmos-mainnet",
+            "status": "live",
+            "symbol": "DSM",
+            "denom": "udsm",
+            "decimals": 6,
+            "coingecko_id": "desmos",
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/desmos/images/dsm.svg",
+            "height": 3432143,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://lcd.desmos.ezstaking.io/",
+                        "provider": "EZStaking.io"
+                    },
+                    {
+                        "address": "https://api.mainnet.desmos.network/",
+                        "provider": "desmos"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "https://rpc.desmos.ezstaking.io/",
+                        "provider": "EZStaking.io"
+                    },
+                    {
+                        "address": "https://rpc.mainnet.desmos.network/",
+                        "provider": "desmos"
+                    }
+                ]
+            },
+            "params": {
+                "authz": true,
+                "bonded_tokens": "79350498570773",
+                "total_supply": "136633075307697",
+                "actual_block_time": 6.490210001468658,
+                "calculated_apr": 0.7887271169831751
+            }
+        },
+        {
+            "name": "dig",
+            "path": "dig",
+            "chain_name": "dig",
+            "network_type": "mainnet",
+            "pretty_name": "Dig Chain",
+            "chain_id": "dig-1",
+            "status": "live",
+            "symbol": "DIG",
+            "denom": "udig",
+            "decimals": 6,
+            "coingecko_id": "dig-chain",
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dig/images/dig.png",
+            "height": 2090310,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://api-1-dig.notional.ventures/"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "https://rpc-1-dig.notional.ventures/"
+                    }
+                ]
+            },
+            "params": {
+                "authz": true,
+                "bonded_tokens": "539997939394332",
+                "total_supply": "1056464832785974",
+                "actual_block_time": 5.902530000209809,
+                "calculated_apr": 0.3752172816536421
+            }
+        },
+        {
+            "name": "echelon",
+            "path": "echelon",
+            "chain_name": "echelon",
+            "network_type": "mainnet",
+            "pretty_name": "Echelon",
+            "chain_id": "echelon_3000-3",
+            "status": "live",
+            "symbol": "ECH",
+            "denom": "aechelon",
+            "decimals": 18,
+            "coingecko_id": "echelon",
+            "image": "https://ping.ech.network/echelon-svg.svg",
+            "height": 376650,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://api.ech.network/",
+                        "provider": "ech.network"
+                    }
+                ],
+                "rpc": []
+            },
+            "params": {
+                "authz": true,
+                "bonded_tokens": "43964012043440617077649038",
+                "total_supply": "170183954803424657535246576",
+                "actual_block_time": 5.763550000190735
+            }
+        },
+        {
+            "name": "emoney",
+            "path": "emoney",
+            "chain_name": "emoney",
+            "network_type": "mainnet",
+            "pretty_name": "e-Money",
+            "chain_id": "emoney-3",
+            "status": "live",
+            "symbol": "NGM",
+            "denom": "ungm",
+            "decimals": 6,
+            "coingecko_id": "e-money",
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/ngm.png",
+            "height": 846312,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://emoney.validator.network/api/",
+                        "provider": "e-Money"
+                    },
+                    {
+                        "address": "https://lcd.emoney.ezstaking.io/",
+                        "provider": "EZStaking.io"
+                    },
+                    {
+                        "address": "https://lcd-emoney.keplr.app/",
+                        "provider": "chainapsis"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "https://rpc.emoney.ezstaking.io/",
+                        "provider": "EZStaking.io"
+                    },
+                    {
+                        "address": "https://emoney.validator.network/",
+                        "provider": "e-Money"
+                    },
+                    {
+                        "address": "https://rpc-emoney.keplr.app/",
+                        "provider": "chainapsis"
+                    }
+                ]
+            },
+            "params": {
+                "authz": false,
+                "bonded_tokens": "49692566778825",
+                "total_supply": "116230570565947",
+                "actual_block_time": 14.42108999967575
+            }
+        },
+        {
+            "name": "evmos",
+            "path": "evmos",
+            "chain_name": "evmos",
+            "network_type": "mainnet",
+            "pretty_name": "Evmos",
+            "chain_id": "evmos_9001-2",
+            "status": "live",
+            "symbol": "evmos",
+            "denom": "aevmos",
+            "decimals": 18,
+            "coingecko_id": "evmos",
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.svg",
+            "height": 217064,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://lcd.evmos.ezstaking.io/",
+                        "provider": "EZStaking.io"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "https://rpc.evmos.ezstaking.io/",
+                        "provider": "EZStaking.io"
+                    }
+                ]
+            },
+            "params": {
+                "authz": true,
+                "bonded_tokens": "6579871805663540512595557",
+                "total_supply": "403292591149083781525280712",
+                "actual_block_time": 5.863740000724793
+            }
+        },
+        {
+            "name": "fetchhub",
+            "path": "fetchhub",
+            "chain_name": "fetchhub",
+            "network_type": "mainnet",
+            "pretty_name": "Fetch Hub",
+            "chain_id": "fetchhub-4",
+            "status": "live",
+            "symbol": "FET",
+            "denom": "afet",
+            "decimals": 18,
+            "coingecko_id": "fetch-ai",
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.svg",
+            "height": 5771911,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://rest-fetchhub.fetch.ai/",
+                        "provider": "fetch.ai"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "https://rpc-fetchhub.fetch.ai/",
+                        "provider": "fetch.ai"
+                    }
+                ]
+            },
+            "params": {
+                "authz": true,
+                "bonded_tokens": "254605513521101421651125548",
+                "total_supply": "1088100097582769271629984250",
+                "actual_block_time": 6.065259997844696,
+                "calculated_apr": 0.08914378957501201
+            }
+        },
+        {
+            "name": "firmachain",
+            "path": "firmachain",
+            "chain_name": "firmachain",
+            "network_type": "mainnet",
+            "pretty_name": "FirmaChain",
+            "chain_id": "colosseum-1",
+            "status": "live",
+            "symbol": "FCT",
+            "denom": "ufct",
+            "decimals": 6,
+            "coingecko_id": "firmachain",
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/firmachain/images/fct.svg",
+            "height": 1499652,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://lcd-mainnet.firmachain.dev:1317/",
+                        "provider": "FirmaChain"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "https://lcd-mainnet.firmachain.dev:26657/",
+                        "provider": "FirmaChain"
+                    }
+                ]
+            },
+            "params": {
+                "authz": true,
+                "bonded_tokens": "25665121088075",
+                "total_supply": "623762636643731",
+                "actual_block_time": 6.008829998970032,
+                "calculated_apr": 3.71256362682907
+            }
+        },
+        {
+            "name": "galaxy",
+            "path": "galaxy",
+            "chain_name": "galaxy",
+            "network_type": "mainnet",
+            "pretty_name": "Galaxy",
+            "chain_id": "galaxy-1",
+            "status": "live",
+            "symbol": "GLX",
+            "denom": "uglx",
+            "decimals": 6,
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/galaxy/images/glx.svg",
+            "height": 152174,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://galaxy-api.polkachu.com/",
+                        "provider": "Polkachu"
+                    },
+                    {
+                        "address": "https://rest.galaxychain.zone/"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "https://galaxy-rpc.polkachu.com/",
+                        "provider": "Polkachu"
+                    },
+                    {
+                        "address": "https://rpc.galaxychain.zone/"
+                    }
+                ]
+            },
+            "params": {
+                "authz": false,
+                "bonded_tokens": "41751580441435",
+                "total_supply": "1012039071555011",
+                "actual_block_time": 5.940310001373291
+            }
+        },
+        {
+            "name": "gravitybridge",
+            "path": "gravitybridge",
+            "chain_name": "gravitybridge",
+            "network_type": "mainnet",
+            "pretty_name": "Gravity Bridge",
+            "chain_id": "gravity-bridge-3",
+            "status": "live",
+            "symbol": "GRAV",
+            "denom": "ugraviton",
+            "decimals": 6,
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.svg",
+            "height": 1966414,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://lcd.gravity-bridge.ezstaking.io/",
+                        "provider": "EZStaking.io"
+                    },
+                    {
+                        "address": "https://gravitychain.io:1317/",
+                        "provider": "althea"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "https://rpc.gravity-bridge.ezstaking.io/",
+                        "provider": "EZStaking.io"
+                    },
+                    {
+                        "address": "http://gravity-bridge-1-08.nodes.amhost.net:26657/",
+                        "provider": "amhost"
+                    },
+                    {
+                        "address": "https://gravity-rpc.polkachu.com/",
+                        "provider": "Polkachu"
+                    },
+                    {
+                        "address": "https://gravitychain.io:26657/",
+                        "provider": "althea"
+                    }
+                ]
+            },
+            "params": {
+                "authz": true,
+                "bonded_tokens": "950481031361728",
+                "total_supply": "2299505052237482",
+                "actual_block_time": 6.430659999847412,
+                "calculated_apr": 0.2709668767154947
+            }
+        },
+        {
+            "name": "impacthub",
+            "path": "impacthub",
+            "chain_name": "impacthub",
+            "network_type": "mainnet",
+            "pretty_name": "Impact Hub",
+            "chain_id": "impacthub-3",
+            "status": "live",
+            "symbol": "IXO",
+            "denom": "uixo",
+            "decimals": 6,
+            "coingecko_id": "ixo",
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.png",
+            "height": 3898480,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://impacthub.ixo.world/rest/",
+                        "provider": "ixoworld"
+                    },
+                    {
+                        "address": "https://lcd.ixo.ezstaking.io/",
+                        "provider": "EZStaking.io"
+                    },
+                    {
+                        "address": "https://proxies.sifchain.finance/api/impacthub-3/rest/",
+                        "provider": "sifchain"
+                    },
+                    {
+                        "address": "https://lcd-impacthub.keplr.app/",
+                        "provider": "chainapsis"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "https://rpc.ixo.ezstaking.io/",
+                        "provider": "EZStaking.io"
+                    },
+                    {
+                        "address": "https://impacthub.ixo.world/rpc/",
+                        "provider": "ixoworld"
+                    },
+                    {
+                        "address": "https://proxies.sifchain.finance/api/impacthub-3/rpc/",
+                        "provider": "sifchain"
+                    },
+                    {
+                        "address": "https://rpc-impacthub.keplr.app/",
+                        "provider": "chainapsis"
+                    }
+                ]
+            },
+            "params": {
+                "authz": false,
+                "bonded_tokens": "45910899093743",
+                "total_supply": "112069752064174",
+                "actual_block_time": 5.962170000076294,
+                "calculated_apr": 0.392378081085273
+            }
+        },
+        {
+            "name": "injective",
+            "path": "injective",
+            "chain_name": "injective",
+            "network_type": "mainnet",
+            "pretty_name": "Injective",
+            "chain_id": "injective-1",
+            "status": "live",
+            "symbol": "INJ",
+            "denom": "uinj",
+            "decimals": 6,
+            "coingecko_id": "injective-protocol",
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.svg",
+            "height": 10517798,
+            "best_apis": {
+                "rest": [],
+                "rpc": [
+                    {
+                        "address": "https://injective-rpc.polkachu.com/",
+                        "provider": "Polkachu"
+                    }
+                ]
+            },
+            "params": {}
+        },
+        {
+            "name": "irisnet",
+            "path": "irisnet",
+            "chain_name": "irisnet",
+            "network_type": "mainnet",
+            "pretty_name": "IRISnet",
+            "chain_id": "irishub-1",
+            "status": "live",
+            "symbol": "IRIS",
+            "denom": "uiris",
+            "decimals": 6,
+            "coingecko_id": "iris-network",
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/irisnet/images/iris.svg",
+            "height": 14845230,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://lcd-iris.keplr.app/",
+                        "provider": "chainapsis"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "https://rpc-iris.keplr.app/",
+                        "provider": "chainapsis"
+                    }
+                ]
+            },
+            "params": {
+                "authz": false,
+                "bonded_tokens": "811423083187285",
+                "total_supply": "2076659182591434",
+                "actual_block_time": 6.434550001621246
+            }
+        },
+        {
+            "name": "juno",
+            "path": "juno",
+            "chain_name": "juno",
+            "network_type": "mainnet",
+            "pretty_name": "Juno",
+            "chain_id": "juno-1",
+            "status": "live",
+            "symbol": "JUNO",
+            "denom": "ujuno",
+            "decimals": 6,
+            "coingecko_id": "juno-network",
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.svg",
+            "height": 3007209,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://lcd.junomint.com/",
+                        "provider": "EZStaking.io"
+                    },
+                    {
+                        "address": "https://lcd-juno.itastakers.com/",
+                        "provider": "itastakers"
+                    },
+                    {
+                        "address": "https://rest-juno.ecostake.com/",
+                        "provider": "ecostake"
+                    },
+                    {
+                        "address": "https://api.juno.pupmos.network/",
+                        "provider": "pupmos"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "https://rpc.junomint.com/",
+                        "provider": "EZStaking.io"
+                    },
+                    {
+                        "address": "https://rpc-juno.itastakers.com/",
+                        "provider": "itastakers"
+                    },
+                    {
+                        "address": "https://juno-rpc.polkachu.com/",
+                        "provider": "Polkachu"
+                    },
+                    {
+                        "address": "https://rpc-juno.ecostake.com/",
+                        "provider": "ecostake"
+                    },
+                    {
+                        "address": "https://rpc.juno.pupmos.network/",
+                        "provider": "pupmos"
+                    }
+                ]
+            },
+            "params": {
+                "authz": true,
+                "bonded_tokens": "28048781821400",
+                "total_supply": "78691698071422",
+                "actual_block_time": 6.260939998626709,
+                "calculated_apr": 1.0997775458596886
+            }
+        },
+        {
+            "name": "kava",
+            "path": "kava",
+            "chain_name": "kava",
+            "network_type": "mainnet",
+            "pretty_name": "Kava",
+            "chain_id": "kava-9",
+            "status": "live",
+            "symbol": "KAVA",
+            "denom": "ukava",
+            "decimals": 6,
+            "coingecko_id": "kava",
+            "image": "https://raw.githubusercontent.com/Kava-Labs/kava/master/kava-logo.svg",
+            "height": 1389581,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://api.data.kava.io/",
+                        "provider": "kava"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "https://kava-rpc.polkachu.com/",
+                        "provider": "Polkachu"
+                    },
+                    {
+                        "address": "https://rpc.kava.io/",
+                        "provider": "kava"
+                    }
+                ]
+            },
+            "params": {
+                "authz": false,
+                "bonded_tokens": "108278858223308",
+                "total_supply": "193315420856736",
+                "actual_block_time": 6.696210000514984,
+                "calculated_apr": 0.8829004428063569
+            }
+        },
+        {
+            "name": "kichain",
+            "path": "kichain",
+            "chain_name": "kichain",
+            "network_type": "mainnet",
+            "pretty_name": "Ki",
+            "chain_id": "kichain-2",
+            "status": "live",
+            "symbol": "XKI",
+            "denom": "uxki",
+            "decimals": 6,
+            "coingecko_id": "ki",
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kichain/images/xki.svg",
+            "height": 9608259,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://lcd.kichain.ezstaking.io/",
+                        "provider": "EZStaking.io"
+                    },
+                    {
+                        "address": "https://api-mainnet.blockchain.ki/",
+                        "provider": "kifoundation"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "https://rpc.kichain.ezstaking.io/",
+                        "provider": "EZStaking.io"
+                    },
+                    {
+                        "address": "https://kichain-rpc.polkachu.com/",
+                        "provider": "Polkachu"
+                    },
+                    {
+                        "address": "https://rpc-mainnet.blockchain.ki/",
+                        "provider": "kifoundation"
+                    }
+                ]
+            },
+            "params": {
+                "authz": false,
+                "bonded_tokens": "466793466684796",
+                "total_supply": "968337875603577",
+                "actual_block_time": 5.9907399988174435,
+                "calculated_apr": 0.20886488644513188
+            }
+        },
+        {
+            "name": "darchub",
+            "path": "konstellation",
+            "chain_name": "darchub",
+            "network_type": "mainnet",
+            "pretty_name": "Konstellation Network",
+            "chain_id": "darchub",
+            "status": "live",
+            "symbol": "DARC",
+            "denom": "udarc",
+            "decimals": 6,
+            "coingecko_id": "darcmatter-coin",
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/konstellation/images/darc.svg",
+            "height": 3302431,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://node1.konstellation.tech:1318/",
+                        "provider": "konstellation"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "https://node1.konstellation.tech:26657/",
+                        "provider": "konstellation"
+                    },
+                    {
+                        "address": "https://konstellation-rpc.polkachu.com/",
+                        "provider": "Polkachu"
+                    }
+                ]
+            },
+            "params": {
+                "authz": false,
+                "bonded_tokens": "251872652033826",
+                "total_supply": "1069988391780405",
+                "actual_block_time": 5.6623300004005435,
+                "calculated_apr": 0.5499699763747381
+            }
+        },
+        {
+            "name": "likecoin",
+            "path": "likecoin",
+            "chain_name": "likecoin",
+            "network_type": "mainnet",
+            "pretty_name": "LikeCoin",
+            "chain_id": "likecoin-mainnet-2",
+            "status": "live",
+            "symbol": "LIKE",
+            "denom": "nanolike",
+            "decimals": 9,
+            "coingecko_id": "likecoin",
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/like.svg",
+            "height": 3750084,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://mainnet-node.like.co/",
+                        "provider": "likecoin"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "https://mainnet-node.like.co/rpc/",
+                        "provider": "likecoin"
+                    }
+                ]
+            },
+            "params": {
+                "authz": true,
+                "bonded_tokens": "551567296138774288",
+                "total_supply": "1103309616992174028",
+                "actual_block_time": 5.960520000457763,
+                "calculated_apr": 0.18492217751320392
+            }
+        },
+        {
+            "name": "lumnetwork",
+            "path": "lumnetwork",
+            "chain_name": "lumnetwork",
+            "network_type": "mainnet",
+            "pretty_name": "Lum Network",
+            "chain_id": "lum-network-1",
+            "status": "live",
+            "symbol": "LUM",
+            "denom": "ulum",
+            "decimals": 6,
+            "coingecko_id": "lum-network",
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lumnetwork/images/lum.svg",
+            "height": 2090769,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://node0.mainnet.lum.network/rest/",
+                        "provider": "Lum Foundation"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "https://node0.mainnet.lum.network/rpc/",
+                        "provider": "Lum Foundation"
+                    }
+                ]
+            },
+            "params": {
+                "authz": true,
+                "bonded_tokens": "2499119219774120",
+                "total_supply": "5609583178576436",
+                "actual_block_time": 5.984630000591278,
+                "calculated_apr": 0.366459069499614
+            }
+        },
+        {
+            "name": "meme",
+            "path": "meme",
+            "chain_name": "meme",
+            "network_type": "mainnet",
+            "pretty_name": "MEME",
+            "chain_id": "meme-1",
+            "status": "live",
+            "symbol": "MEME",
+            "denom": "umeme",
+            "decimals": 6,
+            "image": "https://raw.githubusercontent.com/memecosmos/assetlists/main/logo/meme-icon.svg",
+            "height": 283447,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://api-meme-1.meme.sx/",
+                        "provider": "MEME Foundation"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "https://rpc-meme-1.meme.sx/",
+                        "provider": "MEME Foundation"
+                    }
+                ]
+            },
+            "params": {
+                "authz": true,
+                "bonded_tokens": "518885913422495",
+                "total_supply": "5053361883570177",
+                "actual_block_time": 5.9346099996566775,
+                "calculated_apr": 2.329377845266776
+            }
+        },
+        {
+            "name": "microtick",
+            "path": "microtick",
+            "chain_name": "microtick",
+            "network_type": "mainnet",
+            "pretty_name": "Microtick",
+            "chain_id": "microtick-1",
+            "status": "live",
+            "symbol": "TICK",
+            "denom": "utick",
+            "decimals": 6,
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/microtick/images/tick.svg",
+            "height": null,
+            "best_apis": {
+                "rest": [],
+                "rpc": []
+            },
+            "params": {}
+        },
+        {
+            "name": "nomic",
+            "path": "nomic",
+            "chain_name": "nomic",
+            "network_type": "mainnet",
+            "pretty_name": "Nomic Stakenet",
+            "chain_id": "nomic-stakenet",
+            "status": "live",
+            "height": 842125,
+            "best_apis": {
+                "rest": [],
+                "rpc": []
+            },
+            "params": {}
+        },
+        {
+            "name": "odin",
+            "path": "odin",
+            "chain_name": "odin",
+            "network_type": "mainnet",
+            "pretty_name": "OdinChain",
+            "chain_id": "odin-mainnet-freya",
+            "status": "live",
+            "height": 2106390,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "http://34.79.179.216:1317/",
+                        "provider": "Odin Protocol"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "http://34.79.179.216:26657/",
+                        "provider": "Odin Protocol"
+                    }
+                ]
+            },
+            "params": {
+                "authz": false,
+                "bonded_tokens": "31346090874255",
+                "actual_block_time": 5.054509999752045
+            }
+        },
+        {
+            "name": "oraichain",
+            "path": "oraichain",
+            "chain_name": "oraichain",
+            "network_type": "mainnet",
+            "pretty_name": "Oraichain",
+            "chain_id": "Oraichain",
+            "status": "live",
+            "symbol": "ORAI",
+            "denom": "orai",
+            "decimals": 6,
+            "coingecko_id": "oraichain-token",
+            "image": "https://orai.io/images/logos/logomark-dark.svg",
+            "height": 6269153,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "http://lcd.orai.io/",
+                        "provider": "oraichain-team"
+                    },
+                    {
+                        "address": "http://64.225.53.108:1317/",
+                        "provider": "oraichain-team"
+                    },
+                    {
+                        "address": "http://18.223.242.70:1317/",
+                        "provider": "oraichain-team"
+                    },
+                    {
+                        "address": "http://18.116.209.76:1317/",
+                        "provider": "oraichain-team"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "http://13.79.247.74:26657/",
+                        "provider": "vaiot"
+                    },
+                    {
+                        "address": "http://64.225.53.108:26657/",
+                        "provider": "oraichain-team"
+                    },
+                    {
+                        "address": "http://18.116.209.76:26657/",
+                        "provider": "oraichain-team"
+                    },
+                    {
+                        "address": "http://18.223.242.70:26657/",
+                        "provider": "oraichain-team"
+                    },
+                    {
+                        "address": "https://rpc.orai.io/",
+                        "provider": "oraichain-team"
+                    }
+                ]
+            },
+            "params": {
+                "authz": false,
+                "bonded_tokens": "808342804066",
+                "total_supply": "17529545915610",
+                "actual_block_time": 5.974370000362396,
+                "calculated_apr": 0.2172396084420959
+            }
+        },
+        {
+            "name": "osmosis",
+            "path": "osmosis",
+            "chain_name": "osmosis",
+            "network_type": "mainnet",
+            "pretty_name": "Osmosis",
+            "chain_id": "osmosis-1",
+            "status": "live",
+            "symbol": "OSMO",
+            "denom": "uosmo",
+            "decimals": 6,
+            "coingecko_id": "osmosis",
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg",
+            "height": 4313361,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://rest-osmosis.ecostake.com/",
+                        "provider": "ecostake"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "https://osmosis.validator.network/",
+                        "provider": "validatornetwork"
+                    },
+                    {
+                        "address": "https://osmosis-rpc.polkachu.com/",
+                        "provider": "Polkachu"
+                    }
+                ]
+            },
+            "params": {
+                "authz": true,
+                "bonded_tokens": "123087840023337",
+                "total_supply": "365478068460735",
+                "actual_block_time": 7.7059099984169,
+                "calculated_apr": 0.6093209531159234
+            }
+        },
+        {
+            "name": "panacea",
+            "path": "panacea",
+            "chain_name": "panacea",
+            "network_type": "mainnet",
+            "pretty_name": "Panacea",
+            "chain_id": "panacea-3",
+            "status": "live",
+            "symbol": "MED",
+            "denom": "umed",
+            "decimals": 6,
+            "coingecko_id": "medibloc",
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/panacea/images/med.png",
+            "height": 5198281,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://api.gopanacea.org/",
+                        "provider": "medibloc"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "https://rpc.gopanacea.org/",
+                        "provider": "medibloc"
+                    }
+                ]
+            },
+            "params": {
+                "authz": false,
+                "bonded_tokens": "1388700450467791",
+                "total_supply": "8122197865702364",
+                "actual_block_time": 5.885350000858307,
+                "calculated_apr": 0.5023978969242202
+            }
+        },
+        {
+            "name": "persistence",
+            "path": "persistence",
+            "chain_name": "persistence",
+            "network_type": "mainnet",
+            "pretty_name": "Persistence",
+            "chain_id": "core-1",
+            "status": "live",
+            "symbol": "XPRT",
+            "denom": "uxprt",
+            "decimals": 6,
+            "coingecko_id": "persistence",
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/xprt.svg",
+            "height": 6021478,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://rest.core.persistence.one/",
+                        "provider": "persistence"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "https://rpc.core.persistence.one/",
+                        "provider": "persistence"
+                    }
+                ]
+            },
+            "params": {
+                "authz": true,
+                "bonded_tokens": "118454451220665",
+                "total_supply": "136834268888050",
+                "actual_block_time": 5.93069000005722,
+                "calculated_apr": 0.27817433412688164
+            }
+        },
+        {
+            "name": "provenance",
+            "path": "provenance",
+            "chain_name": "provenance",
+            "network_type": "mainnet",
+            "pretty_name": "Provenance Blockchain",
+            "chain_id": "pio-mainnet-1",
+            "status": "live",
+            "symbol": "HASH",
+            "denom": "nhash",
+            "decimals": 9,
+            "coingecko_id": "provenance-blockchain",
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/hash.svg",
+            "height": 5433015,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://api.provenance.io/",
+                        "provider": "figure"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "https://rpc.provenance.io/",
+                        "provider": "figure"
+                    }
+                ]
+            },
+            "params": {
+                "authz": true,
+                "bonded_tokens": "7776107387237472550",
+                "total_supply": "100000000000000000000",
+                "actual_block_time": 6.092430000305176
+            }
+        },
+        {
+            "name": "regen",
+            "path": "regen",
+            "chain_name": "regen",
+            "network_type": "mainnet",
+            "pretty_name": "Regen Network",
+            "chain_id": "regen-1",
+            "status": "live",
+            "symbol": "REGEN",
+            "denom": "uregen",
+            "decimals": 6,
+            "coingecko_id": "regen",
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/regen/images/regen.png",
+            "height": 5380800,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://regen.stakesystems.io/",
+                        "provider": "stakesystems"
+                    },
+                    {
+                        "address": "http://public-rpc.regen.vitwit.com:1317/",
+                        "provider": "vitwit"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "https://regen.stakesystems.io:2053/",
+                        "provider": "stakesystems"
+                    },
+                    {
+                        "address": "http://public-rpc.regen.vitwit.com:26657/",
+                        "provider": "vitwit"
+                    }
+                ]
+            },
+            "params": {
+                "authz": true,
+                "bonded_tokens": "89700197083509",
+                "total_supply": "127499340323642",
+                "actual_block_time": 6.266940000057221,
+                "calculated_apr": 0.2919922831100157
+            }
+        },
+        {
+            "name": "rizon",
+            "path": "rizon",
+            "chain_name": "rizon",
+            "network_type": "mainnet",
+            "pretty_name": "RIZON",
+            "chain_id": "titan-1",
+            "status": "live",
+            "symbol": "ATOLO",
+            "denom": "uatolo",
+            "decimals": 6,
+            "image": "https://raw.githubusercontent.com/rizon-world/rizon-assets/master/logo/symbol%26favicon.svg",
+            "height": 3232760,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "http://seed-1.mainnet.rizon.world:1317/",
+                        "provider": "HDAC Technology AG"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "http://seed-1.mainnet.rizon.world:26657/",
+                        "provider": "HDAC Technology AG"
+                    }
+                ]
+            },
+            "params": {
+                "authz": true,
+                "bonded_tokens": "870880117512823",
+                "total_supply": "2207818545663206",
+                "actual_block_time": 6.196719999313355,
+                "calculated_apr": 0.420523986834824
+            }
+        },
+        {
+            "name": "secretnetwork",
+            "path": "secretnetwork",
+            "chain_name": "secretnetwork",
+            "network_type": "mainnet",
+            "pretty_name": "Secret Network",
+            "chain_id": "secret-4",
+            "status": "live",
+            "symbol": "SCRT",
+            "denom": "uscrt",
+            "decimals": 6,
+            "coingecko_id": "secret",
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.svg",
+            "height": 3302601,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://secret-4.api.trivium.network:1317/",
+                        "provider": "trivium"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "https://rpc-secret.scrtlabs.com/secret-4/rpc/",
+                        "provider": "SCRT Labs"
+                    }
+                ]
+            },
+            "params": {
+                "authz": true,
+                "bonded_tokens": "138602784655302",
+                "total_supply": "215663494022008",
+                "actual_block_time": 5.841659998893737,
+                "calculated_apr": 0.24840577342985765
+            }
+        },
+        {
+            "name": "sentinel",
+            "path": "sentinel",
+            "chain_name": "sentinel",
+            "network_type": "mainnet",
+            "pretty_name": "Sentinel",
+            "chain_id": "sentinelhub-2",
+            "status": "live",
+            "symbol": "DVPN",
+            "denom": "udvpn",
+            "decimals": 6,
+            "coingecko_id": "sentinel",
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sentinel/images/dvpn.png",
+            "height": 5657047,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://lcd-sentinel.keplr.app/",
+                        "provider": "chainapsis"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "https://rpc-sentinel.keplr.app/",
+                        "provider": "chainapsis"
+                    }
+                ]
+            },
+            "params": {
+                "authz": true,
+                "bonded_tokens": "11173817635692945",
+                "total_supply": "15918389432338608",
+                "actual_block_time": 6.150569999217987,
+                "calculated_apr": 0.49435466398280015
+            }
+        },
+        {
+            "name": "shentu",
+            "path": "shentu",
+            "chain_name": "shentu",
+            "network_type": "mainnet",
+            "pretty_name": "Shentu",
+            "chain_id": "shentu-2.2",
+            "status": "live",
+            "symbol": "CTK",
+            "denom": "uctk",
+            "decimals": 6,
+            "coingecko_id": "certik",
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/shentu/images/ctk.png",
+            "height": 7864430,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://azuredragon.noopsbycertik.com/",
+                        "provider": "Shentu"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "http://54.236.61.32:26657/",
+                        "provider": "Shentu"
+                    }
+                ]
+            },
+            "params": {
+                "authz": true,
+                "bonded_tokens": "44164870527499",
+                "total_supply": "108924842336023",
+                "actual_block_time": 6.075610001087188,
+                "calculated_apr": 0.19878660103770163
+            }
+        },
+        {
+            "name": "sifchain",
+            "path": "sifchain",
+            "chain_name": "sifchain",
+            "network_type": "mainnet",
+            "pretty_name": "Sifchain",
+            "chain_id": "sifchain-1",
+            "status": "live",
+            "symbol": "ROWAN",
+            "denom": "rowan",
+            "decimals": 18,
+            "coingecko_id": "sifchain",
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sifchain/images/rowan.svg",
+            "height": 6755744,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://api.sifchain.finance/"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "https://sifchain-rpc.polkachu.com/",
+                        "provider": "Polkachu"
+                    },
+                    {
+                        "address": "https://rpc.sifchain.finance/"
+                    },
+                    {
+                        "address": "https://rpc-archive.sifchain.finance/"
+                    }
+                ]
+            },
+            "params": {
+                "authz": false,
+                "bonded_tokens": "334112386321464991530190909",
+                "total_supply": "1642095982711280795248839791",
+                "actual_block_time": 6.119909999370575,
+                "calculated_apr": 2.028627664733452
+            }
+        },
+        {
+            "name": "sommelier",
+            "path": "sommelier",
+            "chain_name": "sommelier",
+            "network_type": "mainnet",
+            "pretty_name": "Sommelier",
+            "chain_id": "sommelier-3",
+            "status": "live",
+            "symbol": "SOMM",
+            "denom": "usomm",
+            "decimals": 6,
+            "coingecko_id": "pool:usomm",
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sommelier/images/somm.png",
+            "height": 3536774,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://api.sommelier.pupmos.network/",
+                        "provider": "pupmos"
+                    },
+                    {
+                        "address": "https://lcd-sommelier.keplr.app/",
+                        "provider": "chainapsis"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "https://rpc.sommelier.pupmos.network/",
+                        "provider": "pupmos"
+                    },
+                    {
+                        "address": "https://sommelier-rpc.polkachu.com/",
+                        "provider": "Polkachu"
+                    }
+                ]
+            },
+            "params": {
+                "authz": true,
+                "bonded_tokens": "8280974528824",
+                "total_supply": "499999980000000",
+                "actual_block_time": 5.925909998416901
+            }
+        },
+        {
+            "name": "stargaze",
+            "path": "stargaze",
+            "chain_name": "stargaze",
+            "network_type": "mainnet",
+            "pretty_name": "Stargaze",
+            "chain_id": "stargaze-1",
+            "status": "live",
+            "symbol": "STARS",
+            "denom": "ustars",
+            "decimals": 6,
+            "coingecko_id": "stargaze",
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png",
+            "height": 2782109,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://api.stargaze.ezstaking.io/",
+                        "provider": "EZStaking.io"
+                    },
+                    {
+                        "address": "https://rest.stargaze-apis.com/",
+                        "provider": "Stargaze Foundation"
+                    },
+                    {
+                        "address": "https://api.stars.kingnodes.com/",
+                        "provider": "kingnodes"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "https://rpc.stargaze.ezstaking.io/",
+                        "provider": "EZStaking.io"
+                    },
+                    {
+                        "address": "https://stargaze-rpc.polkachu.com/",
+                        "provider": "Polkachu"
+                    },
+                    {
+                        "address": "https://rpc.stargaze-apis.com/",
+                        "provider": "Stargaze Foundation"
+                    },
+                    {
+                        "address": "https://rpc.stars.kingnodes.com/",
+                        "provider": "kingnodes"
+                    }
+                ]
+            },
+            "params": {
+                "authz": true,
+                "bonded_tokens": "446625512351081",
+                "total_supply": "1323210945598919",
+                "actual_block_time": 6.013469998836517
+            }
+        },
+        {
+            "name": "starname",
+            "path": "starname",
+            "chain_name": "starname",
+            "network_type": "mainnet",
+            "pretty_name": "Starname",
+            "chain_id": "iov-mainnet-ibc",
+            "status": "live",
+            "symbol": "IOV",
+            "denom": "uiov",
+            "decimals": 6,
+            "coingecko_id": "starname",
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/starname/images/iov.svg",
+            "height": 8871790,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://lcd-iov.keplr.app/",
+                        "provider": "chainapsis"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "https://rpc-iov.keplr.app/",
+                        "provider": "chainapsis"
+                    }
+                ]
+            },
+            "params": {
+                "authz": false,
+                "bonded_tokens": "61400549350046",
+                "total_supply": "123255407404090",
+                "actual_block_time": 5.7652300000190735,
+                "calculated_apr": 0.2266625205779401
+            }
+        },
+        {
+            "name": "terra",
+            "path": "terra",
+            "chain_name": "terra",
+            "network_type": "mainnet",
+            "pretty_name": "Terra",
+            "chain_id": "columbus-5",
+            "status": "live",
+            "symbol": "LUNA",
+            "denom": "uluna",
+            "decimals": 6,
+            "coingecko_id": "terra-luna",
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luna.svg",
+            "height": 7559126,
+            "best_apis": {
+                "rest": [],
+                "rpc": [
+                    {
+                        "address": "https://terra-rpc.easy2stake.com/",
+                        "provider": "Easy2stake"
+                    },
+                    {
+                        "address": "http://public-node.terra.dev:26657/",
+                        "provider": "Terra"
+                    }
+                ]
+            },
+            "params": {
+                "authz": true
+            }
+        },
+        {
+            "name": "thorchain",
+            "path": "thorchain",
+            "chain_name": "thorchain",
+            "network_type": "mainnet",
+            "pretty_name": "THORChain",
+            "chain_id": "thorchain-mainnet-v1",
+            "status": "live",
+            "height": 5477228,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://thornode.ninerealms.com/",
+                        "provider": "thorchain"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "https://rpc.thorchain.info/",
+                        "provider": "thorchain"
+                    }
+                ]
+            },
+            "params": {
+                "authz": false,
+                "actual_block_time": 6.10050999879837
+            }
+        },
+        {
+            "name": "umee",
+            "path": "umee",
+            "chain_name": "umee",
+            "network_type": "mainnet",
+            "pretty_name": "umee",
+            "chain_id": "umee-1",
+            "status": "live",
+            "symbol": "UMEE",
+            "denom": "uumee",
+            "decimals": 6,
+            "coingecko_id": "umee",
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.png",
+            "height": 1170974,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://api.athena.main.network.umee.cc/",
+                        "provider": "umee Foundation"
+                    },
+                    {
+                        "address": "https://api.beaked.main.network.umee.cc/",
+                        "provider": "umee Foundation"
+                    },
+                    {
+                        "address": "https://api.apollo.main.network.umee.cc/",
+                        "provider": "umee Foundation"
+                    },
+                    {
+                        "address": "https://api.bottlenose.main.network.umee.cc/",
+                        "provider": "umee Foundation"
+                    },
+                    {
+                        "address": "https://api.aphrodite.main.network.umee.cc/",
+                        "provider": "umee Foundation"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "https://rpc.beaked.main.network.umee.cc/",
+                        "provider": "umee Foundation"
+                    },
+                    {
+                        "address": "https://rpc.athena.main.network.umee.cc/",
+                        "provider": "umee Foundation"
+                    },
+                    {
+                        "address": "https://umee-rpc.polkachu.com/",
+                        "provider": "Polkachu"
+                    },
+                    {
+                        "address": "https://rpc.apollo.main.network.umee.cc/",
+                        "provider": "umee Foundation"
+                    },
+                    {
+                        "address": "https://rpc.bottlenose.main.network.umee.cc/",
+                        "provider": "umee Foundation"
+                    },
+                    {
+                        "address": "https://rpc.aphrodite.main.network.umee.cc/",
+                        "provider": "umee Foundation"
+                    }
+                ]
+            },
+            "params": {
+                "authz": true,
+                "bonded_tokens": "2781589849506955",
+                "total_supply": "10382448211410655",
+                "actual_block_time": 6.029270000457764,
+                "calculated_apr": 0.6028951631750217
+            }
+        },
+        {
+            "name": "vidulum",
+            "path": "vidulum",
+            "chain_name": "vidulum",
+            "network_type": "mainnet",
+            "pretty_name": "Vidulum",
+            "chain_id": "vidulum-1",
+            "status": "live",
+            "symbol": "VDL",
+            "denom": "uvdl",
+            "decimals": 6,
+            "coingecko_id": "vidulum",
+            "image": "https://raw.githubusercontent.com/cosmos/chain-registry/master/vidulum/images/vdl.svg",
+            "height": 2889598,
+            "best_apis": {
+                "rest": [
+                    {
+                        "address": "https://mainnet-lcd.vidulum.app/",
+                        "provider": "vidulum"
+                    }
+                ],
+                "rpc": [
+                    {
+                        "address": "https://mainnet-rpc.vidulum.app/",
+                        "provider": "vidulum"
+                    }
+                ]
+            },
+            "params": {
+                "authz": false,
+                "bonded_tokens": "10473084204344",
+                "total_supply": "17621389378778",
+                "actual_block_time": 5.8759099984169,
+                "calculated_apr": 0.14443564560635488
+            }
+        }
+    ]
+}

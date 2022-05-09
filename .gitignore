@@ -1,0 +1,35 @@
+src/networks.local.json
+scripts/*
+!scripts/autostake.mjs
+!scripts/base.mjs
+!scripts/checkAuthz.mjs
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+.vim
+
+# Parcel related files
+dist/
+.cache
+.parcel-cache/
