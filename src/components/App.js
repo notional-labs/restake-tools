@@ -289,48 +289,7 @@ class App extends React.Component {
                 stargateClient={this.state.stargateClient} />
             </>
           }
-          <hr />
-          <p className="mt-5 text-center">
-            Enabling REStake will authorize the validator to send <em>WithdrawDelegatorReward</em> and <em>Delegate</em> transactions on your behalf for 1 year <a href="https://docs.cosmos.network/master/modules/authz/" target="_blank" rel="noreferrer" className="text-reset">using Authz</a>.<br />
-            They will only be authorized to delegate to their own validator. You can revoke the authorization at any time and everything is open source.
-          </p>
-          <p className="text-center mb-4">
-            <strong>The validators will pay the transaction fees for you.</strong>
-          </p>
-          <p className="text-center mb-5">
-            <Button onClick={() => this.setState({ showAbout: true })} variant="outline-secondary">More info</Button>
-          </p>
         </div>
-        <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-          <a href="https://akash.network" target="_blank" rel="noreferrer" className="col-md-4 mb-0 text-muted">
-            {this.props.theme === 'light'
-            ? (
-              <img src={PoweredByAkash} alt="Powered by Akash" width={200} />
-            ) : (
-              <img src={PoweredByAkashWhite} alt="Powered by Akash" width={200} />
-            )}
-          </a>
-
-          <div className="col-md-4 align-items-center text-center me-lg-auto">
-            <a href="https://ecostake.com" target="_blank" rel="noreferrer" className="text-reset text-decoration-none d-block mb-2">
-              <span className="d-none d-sm-inline">Built with 💚&nbsp;</span> by ECO Stake 🌱
-            </a>
-            {this.props.network?.usingDirectory && (
-              <a href="https://cosmos.directory" target="_blank" className="text-reset text-decoration-none d-block small">
-                <span className="d-none d-sm-inline">Interchain with</span> cosmos.directory
-              </a>
-            )}
-          </div>
-
-          <p className="col-md-4 mb-0 text-muted text-end justify-content-end d-none d-lg-flex">
-            {this.props.theme === 'light'
-              ? (
-                <GitHubButton href="https://github.com/eco-stake/restake" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star eco-stake/restake on GitHub">Star</GitHubButton>
-              ) : (
-                <GitHubButton href="https://github.com/eco-stake/restake" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star eco-stake/restake on GitHub" data-color-scheme="no-preference: dark; light: dark; dark: dark;">Star</GitHubButton>
-              )}
-          </p>
-        </footer>
         <About show={this.state.showAbout} onHide={() => this.setState({ showAbout: false })} />
       </Container>
     )

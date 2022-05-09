@@ -34,6 +34,8 @@ function CosmosDirectory(){
   }
 
   function getValidators(chainName){
+    console.log(axios.get(validatorsUrl + '/chains/' + chainName)
+    .then(res => res.data.validators))
     return axios.get(validatorsUrl + '/chains/' + chainName)
       .then(res => res.data.validators)
   }
